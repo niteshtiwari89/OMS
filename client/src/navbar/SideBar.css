@@ -1,0 +1,45 @@
+.side-button {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: start;
+}
+a {
+    width: 100%;
+}
+
+.side-button>a>button {
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    font-size: small;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.side-button>.side>a>button {
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    font-size: small;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.side-button> button {
+    transition: background-color 0.3s ease;
+}
+
+.side-button>.side button.active {
+    background-color: #007BFF; /* Change to your desired color */
+    color: white; /* Change text color if necessary */
+}
+
+/* .side-button {
+    display: none;
+}
+
+@media (min-width:768px) {
+
+    .side-button {
+        display: flex;
+    }
+} */

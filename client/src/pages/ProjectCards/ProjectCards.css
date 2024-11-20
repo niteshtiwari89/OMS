@@ -1,0 +1,16 @@
+.project::-webkit-scrollbar {
+    display: none;
+}
+
+.detail{
+    display: none;
+}
+.listReport{
+    display: none;
+}
+
+@media (min-width : 640px) {
+    
+
+    
+}
